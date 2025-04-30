@@ -1,0 +1,48 @@
+name: materialtrackingandcosting
+description: A material tracking and costing application.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  
+  # Firebase for cloud sync
+  firebase_core: ^2.15.1
+  cloud_firestore: ^4.9.1
+  firebase_auth: 4.20.0
+  # Local persistence
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  build_runner: 2.4.13
+  hive_generator: ^1.0.1
+  # Export functionality
+  pdf: ^3.10.4
+  csv: ^5.0.2
+  path_provider: ^2.1.1
+  share_plus: ^7.1.0
+  
+  # QR and barcode scanning
+  flutter_barcode_scanner: ^2.0.0
+  
+  # Utilities
+  uuid: ^4.0.0
+  intl: ^0.18.1
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+  
+  # Hive code generation
+
+
+flutter:
+  uses-material-design: true
